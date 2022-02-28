@@ -12,7 +12,6 @@ Date: Date;
   
   
 
-
   constructor(private datePipe: DatePipe) { 
     this.datePipeString = datePipe.transform(Date.now(),'yyyy-MM-dd');
     //  this.datePipeString = datePipe.transform(Date.now(), 'hh:mm:ss'); 
